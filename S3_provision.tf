@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "b" {
   bucket = "mid-mod-buck"
-  acl    = "public"
+  acl    = "private"
 
   tags = {
     Name        = "my new buck"
