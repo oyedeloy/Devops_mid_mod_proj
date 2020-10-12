@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "b" {
   acl    = "public"
 
   tags = {
-    Name        = "my-mid-bucket"
+    Name        = "my new buck"
     Environment = "Dev"
   }
 }
