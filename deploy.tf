@@ -3,13 +3,6 @@ provider "aws" {
   region  = "us-east-2"
 }
 
-terraform {
-    backend "s3" {
-        bucket = "mid-mod-buck"
-        key    = "devops_key"
-        region = "us-east-2"
-    }
-}
 
 resource "aws_instance" "nginix_instance" {
   ami                    = "ami-03657b56516ab7912"
